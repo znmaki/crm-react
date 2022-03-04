@@ -5,7 +5,7 @@ import Inicio from './pages/Inicio'
 import NuevoCliente from './pages/NuevoCliente'
 import EditarCliente from './pages/EditarCliente'
 import InfoCliente from './pages/InfoCliente'
-import Error from './pages/Error'
+
 function App() {
   return (
     <BrowserRouter>
