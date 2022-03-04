@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nombre": "Cristhian ACTUALIZADO",
+      "empresa": "San Fernando",
+      "email": "aea@gmail.com",
+      "telefono": "123456789",
+      "notas": "aea loco",
+      "id": 1
+    },
+    {
+      "nombre": "Cristhian Ortiz",
+      "empresa": "San Fernando",
+      "email": "aea@gmail.com",
+      "telefono": "123456789",
+      "notas": "aea loco",
+      "id": 2
+    }
+  ]
+}
