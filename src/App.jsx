@@ -16,9 +16,8 @@ function App() {
           <Route path='editar/:id' element={<EditarCliente />} />
           <Route path=':id' element={<InfoCliente />} />          
         </Route>
-
-        <Route path='/' element={<Layout />} />
-        <Route path='*' element={<Error />} />
+        
+        <Route path='*' element={<Layout />} />
       </Routes>
     </BrowserRouter>
   )

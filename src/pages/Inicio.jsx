@@ -10,7 +10,7 @@ const Inicio = () => {
 
   useEffect(() => {
     const obtenerCliente = async () => {
-      const url = 'http://localhost:4000/clientes';
+      const url = import.meta.env.VITE_API_URL;
       const consulta = await fetch(url);
       const respuesta = await consulta.json();
       setClientes(respuesta);
@@ -23,7 +23,7 @@ const Inicio = () => {
 
     const eliminar = async () => {
       try {
-        const url = `http://localhost:4000/clientes/${id}`;
+        const url = `${import.meta.env.VITE_API_URL}/${id}`;
         const respuesta = await fetch(url, {
           method: 'DELETE'
         })

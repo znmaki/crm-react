@@ -10,7 +10,7 @@ const InfoCliente = () => {
     useEffect(() => {
         const verInfo = async () => {
             try {
-                const url = `http://localhost:4000/clientes/${id}`;
+                const url = `${import.meta.env.VITE_API_URL}/${id}`;
                 const consulta = await fetch(url);
                 const respuesta = await consulta.json();
                 setCliente(respuesta);
